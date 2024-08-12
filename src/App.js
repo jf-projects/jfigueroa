@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import SideMenu from './components/SideMenu';
+import Timeline from './components/Timeline';
+import { AlertProvider } from './components/AlertContext';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="w-8/12">
+          <AlertProvider>
+            <Navbar />
+            <Hero />
+            <About />
+            <Experience />
+            <Timeline />
+            <Projects />
+            <SideMenu />
+            <Footer />
+          </AlertProvider>
+        </div>
+      </div>
+    </div >
   );
 }
 
