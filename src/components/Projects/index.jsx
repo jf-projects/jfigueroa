@@ -1,3 +1,7 @@
+import carla from './../../Assets/image/cbc.png';
+import ferraris from './../../Assets/image/ferraris.png';
+import mapiles from './../../Assets/image/Mapiles.png';
+
 const Projects = () => {
     return (
         <div id="project-section" className="min-h-screen items-center justify-start p-12">
@@ -66,6 +70,48 @@ const Projects = () => {
                             />
                             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
                             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Qx7</span>
+                        </a>
+
+                        <a data-aos="zoom-in-up"
+                            href="https://ferraris-app.vercel.app" target="_blank" rel="noreferrer"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+                        >
+                            <img
+                                src={ferraris}
+                                loading="lazy"
+                                alt="Ferraris"
+                                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Ferraris App</span>
+                        </a>
+
+                        <a data-aos="zoom-in-up"
+                            href="https://jf-projects.github.io/closed-by-carla/" target="_blank" rel="noreferrer"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+                        >
+                            <img
+                               src={carla}
+                                loading="lazy"
+                                alt="Closed by Carla"
+                                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Closed by Carla</span>
+                        </a>
+
+                        <a data-aos="zoom-in-up"
+                            href="https://mapiles-listing-dashboard.vercel.app" target="_blank" rel="noreferrer"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+                        >
+                            <img
+                               src={mapiles}
+                                loading="lazy"
+                                alt="Closed by Carla"
+                                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Mapiles Realty Listings</span>
                         </a>
                     </div>
                 </div>
