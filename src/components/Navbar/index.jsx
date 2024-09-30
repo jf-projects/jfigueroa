@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar fixed bg-base-100 top-0 z-50 w-8/12">
+            <div className="navbar fixed bg-base-100 top-0 z-50 w-full sm:w-8/12">
                 <div className="flex-1">
                     <a className="text-xl" href='#home-section'>JFIGUEROA</a>
                 </div>

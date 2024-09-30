@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="flex items-center justify-center min-h-screen">
-        <div className="w-8/12">
+        <div className="w-full sm:w-8/12">
           <AlertProvider>
             <Navbar />
             <Hero />
