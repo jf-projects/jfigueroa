@@ -77,7 +77,7 @@ const Footer = () => {
                                     </div>
                                     <a href="#!" className="text-[#007bff] text-sm ml-4" onClick={(e) => e.preventDefault()}>
                                         <small className="block">Phone No.</small>
-                                        <strong>+63 962 0669 336</strong>
+                                        <strong>+63 949 8335 414</strong>
                                     </a>
                                 </li>
 

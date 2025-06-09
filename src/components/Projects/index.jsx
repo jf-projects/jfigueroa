@@ -1,6 +1,7 @@
 import carla from './../../Assets/image/cbc.png';
 import ferraris from './../../Assets/image/ferraris.png';
 import mapiles from './../../Assets/image/Mapiles.png';
+import customizer from './../../Assets/image/customizer.png';
 
 const Projects = () => {
     return (
@@ -91,7 +92,7 @@ const Projects = () => {
                             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
                         >
                             <img
-                               src={carla}
+                                src={carla}
                                 loading="lazy"
                                 alt="Closed by Carla"
                                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -101,11 +102,25 @@ const Projects = () => {
                         </a>
 
                         <a data-aos="zoom-in-up"
-                            href="https://mapiles-listing-dashboard.vercel.app" target="_blank" rel="noreferrer"
+                            href="https://3d-customizer-six.vercel.app/admin/customizer2" target="_blank" rel="noreferrer"
                             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
                         >
                             <img
-                               src={mapiles}
+                                src={customizer}
+                                loading="lazy"
+                                alt="3d Customizer"
+                                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                            />
+                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">3d Customizer</span>
+                        </a>
+
+                        <a data-aos="zoom-in-up"
+                            href="https://ferraris-app.vercel.app" target="_blank" rel="noreferrer"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+                        >
+                            <img
+                                src={mapiles}
                                 loading="lazy"
                                 alt="Closed by Carla"
                                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
